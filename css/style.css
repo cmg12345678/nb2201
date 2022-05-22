@@ -1,0 +1,35 @@
+/**头部**/
+.header nav a:hover {
+    color: #fe5341;
+}
+
+nav .on a {
+    color: #fe5341;
+}
+
+.header .login {
+    color: #fe5341;
+}
+
+.header .login:hover {
+    background: #fe5341;
+    color: #fff;
+}
+
+.header .search {
+    background: url(img/search.png) no-repeat;
+}
+
+/**底部**/
+.foot {
+    background: #505050;
+    color: #a3a3a3;
+}
+
+.foot a {
+    color: #a3a3a3;
+}
+
+.foot dl dt {
+    color: #fff;
+}
