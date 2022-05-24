@@ -1,6 +1,7 @@
 window.onload = function show() {
     var ajax_ = new XMLHttpRequest() || new ActiveXObject("Microsoft.XMLHTTP");
     ajax_.open('get', 'http://localhost:3000/report/new');
+
     ajax_.send();
     ajax_.onreadystatechange = function () {
         if (ajax_.readyState == 4) {
@@ -13,18 +14,6 @@ window.onload = function show() {
 }
 
 
-//  渲染数据
-// function render(data_) {
-//     console.log(data_);
-//     var str = '';
-//     for (var item of data_) {
-//         str += '<li>';
-//         str += '<p>' + item.imgtitle + '</p>';
-//         str += '<img src="' + item.imgurl + '">'
-//         str += '<p>' + item.note + '</p>';
-//         str += '</li>';
-//     }
-// }
 
 function render(data_) {
     var str = '';
